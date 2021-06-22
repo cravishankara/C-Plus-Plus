@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+class Solution{
+public:
+void helloWorld()
+{
+    cout<<"Hello World";
+}
+};
+
+int main()
+{
+    Solution call;
+    call.helloWorld();
+    return 0;
+}
